@@ -1,0 +1,13 @@
+.errorValidation {
+    color: #cf3b3c;
+    background-color: #fba9aa;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #cf3b3c;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.form-group {
+    margin: 1em;
+}
