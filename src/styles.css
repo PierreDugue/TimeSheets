@@ -1,2 +1,27 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import '~normalize.css/normalize.css';
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.5em 1em;
+}
+body {
+    font-family: "Verdana";
+}
+
+.sindeNavBlock{
+    height:100%;
+}
+
+.lightPurple {
+    background-color: #eee8ee;
+}
