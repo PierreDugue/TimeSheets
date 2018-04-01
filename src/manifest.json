@@ -1,0 +1,15 @@
+{
+    "name": "PWA Time Sheets",
+    "short_name": "TSA",
+    "icons": [
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffa500",
+    "display": "standalone",
+    "start_url": "/index.html"
+}
