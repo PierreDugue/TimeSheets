@@ -6,8 +6,9 @@ import { MatToolbarModule } from '@angular/material';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { AppComponent } from './app.component';
 
+import { HomePageComponent } from './home-page/home-page.component';
+
 import { environment } from '../environments/environment';
-import { HomePageComponent } from './components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
