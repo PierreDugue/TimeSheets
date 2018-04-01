@@ -3,7 +3,7 @@
     "short_name": "TSA",
     "icons": [
         {
-            "src": "tsIcon.png",
+            "src": "assets/tsIcon.png",
             "sizes": "512x512",
             "type": "image/png"
         }
