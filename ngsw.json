@@ -10,7 +10,7 @@
         "/TimeSheets/favicon.ico",
         "/TimeSheets/index.html",
         "/TimeSheets/inline.318b50c57b4eba3d437b.bundle.js",
-        "/TimeSheets/main.780a5aa6a8c93dc80d0f.bundle.js",
+        "/TimeSheets/main.ec8503d5d0781fac83f3.bundle.js",
         "/TimeSheets/polyfills.95f523ba519ac2af484d.bundle.js",
         "/TimeSheets/styles.4c5f316259306b0e31e3.bundle.css"
       ],
@@ -21,6 +21,10 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/TimeSheets/assets/icon-128x128.png",
+        "/TimeSheets/assets/icon-152x152.png",
+        "/TimeSheets/assets/icon-256x256.png",
+        "/TimeSheets/assets/icon-512x512.png",
         "/TimeSheets/assets/tsIcon.png"
       ],
       "patterns": []
@@ -29,11 +33,15 @@
   "dataGroups": [],
   "hashTable": {
     "/TimeSheets/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/TimeSheets/assets/tsIcon.png": "af87f7263de401ea4a52913c07e9da05e8925c3a",
-    "/TimeSheets/main.780a5aa6a8c93dc80d0f.bundle.js": "6fcf4fc41443d471b21249327b04876c0463c01c",
+    "/TimeSheets/assets/icon-128x128.png": "f444fd3ae0dbc3be5741ef77cf9d0aa21bcdd9d5",
+    "/TimeSheets/main.ec8503d5d0781fac83f3.bundle.js": "273005fd404077f0e23f2bd4bb1f809685fc400a",
+    "/TimeSheets/assets/icon-152x152.png": "c439eef9906d5a1758700fbbc8ea38d7295eb1bb",
     "/TimeSheets/polyfills.95f523ba519ac2af484d.bundle.js": "deb3bb32039edd76a8f1c0a02d1e98148d8f03f7",
+    "/TimeSheets/assets/icon-256x256.png": "aa794bf00591bd06c9fee00126b321baa155ee8d",
     "/TimeSheets/styles.4c5f316259306b0e31e3.bundle.css": "12a40ef3117a282c397c74133ba15d554595691a",
+    "/TimeSheets/assets/icon-512x512.png": "ad9b5746e8a586f161f92b21f97c4cd81b157965",
     "/TimeSheets/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/TimeSheets/index.html": "b6aa0ed469a0da0fa4cae7974cbcafb3d07c6054"
+    "/TimeSheets/assets/tsIcon.png": "af87f7263de401ea4a52913c07e9da05e8925c3a",
+    "/TimeSheets/index.html": "c35df2bf950bbc3d869e5a8c17722b02a2e0fc5e"
   }
 }
