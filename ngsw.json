@@ -23,9 +23,7 @@
       "urls": [
         "/TimeSheets/assets/tsIcon.png"
       ],
-      "patterns": [
-        "https:\\/\\/cataas\\.com\\/.*"
-      ]
+      "patterns": []
     }
   ],
   "dataGroups": [],
