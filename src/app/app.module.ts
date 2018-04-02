@@ -9,13 +9,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 
-import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { AppComponent } from './app.component';
 
 import { HomePageComponent } from './home-page/home-page.component';
 
+import { MatInputModule } from '@angular/material/input';
 import { environment } from '../environments/environment';
 import { ManagerUserComponent } from './manager-user/manager-user.component';
 import { MenuComponent } from './menu/menu.component';
@@ -36,6 +37,7 @@ export const appRoutes: Routes = [
   imports: [
     FormsModule,
     ReactiveFormsModule,
+    MatInputModule,
     BrowserModule,
     MatButtonModule,
     MatCheckboxModule,

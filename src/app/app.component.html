@@ -1,4 +1,8 @@
-<mat-sidenav-container>
+<mat-toolbar color="primary">
+  <button mat-button (click)="sidenav.toggle()">Menu</button>
+  <a routerLink="TimeSheets/home">{{ title }}</a>
+</mat-toolbar>
+<mat-sidenav-container class="sindeNavBlock">
   <mat-sidenav class="sindeNavBlock lightPurple" #sidenav mode="side">
     <ul>
       <li>
@@ -10,12 +14,8 @@
     </ul>
   </mat-sidenav>
 
-  <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button mat-button (click)="sidenav.toggle()">Menu</button>
-      <a routerLink="TimeSheets/home">{{ title }}</a>
-    </mat-toolbar>
-
+  <mat-sidenav-content class="sindeNavBlock">
     <router-outlet></router-outlet>
   </mat-sidenav-content>
+  
 </mat-sidenav-container>

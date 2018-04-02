@@ -1,1 +1,15 @@
-TEST HOME PAGE
+<form class="blockValue" (ngSubmit)="onSubmit()" [formGroup]="datasForm">
+    <div class="form-group">
+      <div>Arriving time : </div>
+      <input type="date"class="formInput" class="form-control" formControlName="arrivingTime" required/>
+    </div>
+    <div class="form-group">
+      <div>Departure time : </div>
+      <input type="date" class="formInput" class="form-control" formControlName="departureTime" required/>
+    </div>
+    <div class="form-group">
+      <div>Familly : </div>
+      <input class="formInput" class="form-control" formControlName="familly" required/>
+    </div>
+    <button mat-button type="submit" [disabled]="!datasForm.valid">Save</button>
+  </form>
