@@ -21,9 +21,9 @@ import { ManagerUserComponent } from './manager-user/manager-user.component';
 import { MenuComponent } from './menu/menu.component';
 
 export const appRoutes: Routes = [
-  { path: 'home', component: HomePageComponent },
-  { path: 'manager', component: ManagerUserComponent },
-  { path: '', redirectTo: "/home ", pathMatch: "full" },
+  { path: 'TimeSheets/home', component: HomePageComponent },
+  { path: 'TimeSheets/manager', component: ManagerUserComponent },
+  { path: '', redirectTo: "/TimeSheets/home", pathMatch: "full" },
 ];
 
 @NgModule({

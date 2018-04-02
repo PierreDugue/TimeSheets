@@ -2,10 +2,10 @@
   <mat-sidenav class="sindeNavBlock lightPurple" #sidenav mode="side">
     <ul>
       <li>
-        <a routerLink="/home" (click)="sidenav.close()">Home</a>
+        <a routerLink="TimeSheets/home" (click)="sidenav.close()">Home</a>
       </li>
       <li>
-        <a routerLink="/manager" (click)="sidenav.close()">Manager</a>
+        <a routerLink="TimeSheets/manager" (click)="sidenav.close()">Manager</a>
       </li>
     </ul>
   </mat-sidenav>
@@ -13,7 +13,7 @@
   <mat-sidenav-content>
     <mat-toolbar color="primary">
       <button mat-button (click)="sidenav.toggle()">Menu</button>
-      <a routerLink="/home">{{ title }}</a>
+      <a routerLink="TimeSheets/home">{{ title }}</a>
     </mat-toolbar>
 
     <router-outlet></router-outlet>
